@@ -1,3 +1,52 @@
+"""
+Hand Sign Language Translator
+Author: Karthick Suresh
+Description: End-to-end hand sign language translator using CV and DL
+"""
+
+# ======================
+# 1. Imports
+# ======================
+import cv2
+import numpy as np
+import tensorflow as tf
+
+# ======================
+# 2. Configuration
+# ======================
+IMG_SIZE = 64
+MODEL_PATH = "model.h5"
+
+# ======================
+# 3. Data Preprocessing
+# ======================
+def preprocess_frame(frame):
+    pass
+
+# ======================
+# 4. Model Definition
+# ======================
+def build_model():
+    pass
+
+# ======================
+# 5. Training Function
+# ======================
+def train_model():
+    pass
+
+# ======================
+# 6. Real-time Prediction
+# ======================
+def run_realtime():
+    pass
+
+# ======================
+# 7. Main
+# ======================
+if __name__ == "__main__":
+    # train_model()   # run once
+    run_realtime()    # default
 
 import os
 import json
